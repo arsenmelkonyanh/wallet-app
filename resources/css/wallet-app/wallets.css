@@ -1,0 +1,29 @@
+.wallets {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 25px;
+}
+
+.wallets .wallet {
+    color: #fff;
+    position: relative;
+    flex: 0 0 20%;
+    padding: 15px 50px 15px 15px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.wallets .wallet .delete-wallet {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+}
+
+.wallets .wallet .delete-wallet svg {
+    width: 100%;
+    height: 100%;
+}

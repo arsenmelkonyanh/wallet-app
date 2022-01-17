@@ -1,0 +1,69 @@
+.main-content-container form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin: 30px -20px 0;
+}
+
+.main-content-container .form-title {
+    font-size: 20px;
+    line-height: normal;
+}
+
+.main-content-container form .row {
+    display: flex;
+    align-items: self-end;
+}
+
+.main-content-container form .row .create-field {
+    flex: 0 0 80%;
+}
+
+.main-content-container form .create-field {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.main-content-container form .create-field.transfer-to-another {
+    margin-bottom: 30px;
+}
+
+.main-content-container form .create-field label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.main-content-container form .create-field select,
+.main-content-container form .create-field input {
+    width: 100%;
+}
+
+.main-content-container form .create-field input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.main-content-container form .create-field input[type="color"] {
+    width: 100px;
+    height: 100px;
+}
+
+.main-content-container form .create-field.transfer-to-another label {
+    display: inline;
+    cursor: pointer;
+}
+
+.main-content-container form .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.main-content-container form .error-message:empty {
+    display: none;
+}

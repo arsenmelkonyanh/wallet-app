@@ -1,0 +1,55 @@
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.welcome-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 48px);
+}
+
+.welcome-logo .welcome-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-logo i {
+    margin-right: 20px;
+}
+
+.welcome-logo span {
+    font-size: 25px;
+}
+
+.welcome-logo .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.login-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.login-logo i {
+    margin-right: 10px;
+}
+
+.login-logo span {
+    font-size: 18px;
+}
+
+.header-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo i {
+    margin-right: 10px;
+}
+
+.header-logo span {
+    font-size: 18px;
+}

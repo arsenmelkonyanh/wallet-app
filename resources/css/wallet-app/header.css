@@ -1,0 +1,18 @@
+.welcome-header-actions {
+    font-size: 16px;
+    color: #000;
+}
+
+.welcome-header-actions:hover {
+    color: #2B2B2B;
+}
+
+.header-container {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-container .user-name {
+    flex: 0 0 100%;
+    text-align: right;
+}

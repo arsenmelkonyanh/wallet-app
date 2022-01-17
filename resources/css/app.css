@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'wallet-app/logo.css';
+@import 'wallet-app/wallets.css';
+@import 'wallet-app/header.css';
+@import 'wallet-app/login.css';
+@import 'wallet-app/content.css';
+@import 'wallet-app/records.css';
+@import 'wallet-app/form.css';
+@import 'wallet-app/global.css';
